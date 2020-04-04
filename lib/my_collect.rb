@@ -1,6 +1,6 @@
 
 def my_collect
-  yield (name) do |name|
+  yield(x[i])
   name.split(" ").first
   end 
 end
