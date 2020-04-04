@@ -1,10 +1,10 @@
 require "pry"
 def my_collect(names)
   i = 0
- students2 = []
-  while i < students.length
-     students2 << yield(students[i])
+ names2 = []
+  while i < names.length
+     names2 << yield(names[i])
     i += 1
   end
-   students2
+   names2
 end
