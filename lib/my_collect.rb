@@ -1,6 +1,7 @@
 require "pry"
 def my_collect(names)
-  yield(x[i])
+  i = names
+  yield(names[i])
 
   end 
 end
